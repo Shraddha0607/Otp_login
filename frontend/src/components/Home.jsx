@@ -1,7 +1,6 @@
-function Home({ setIsLoggedIn, setIsOtpSend }) {
+function Home({ setIsLoggedIn }) {
     const logout = () => {
         setIsLoggedIn(false);
-        setIsOtpSend(false);
     }
     return (
         <>
